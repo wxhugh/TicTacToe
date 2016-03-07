@@ -16,7 +16,7 @@ class TicTacToeBoard {
 		System.out.println("Hello Player One. Do you want to be X or O?(Use X and O)");
 		String answer = player1.next();
 		String other = "";
-		if (answer == "X") {
+		if (answer.equals("X")) {
 			other = "O";
 		}
 		else {
@@ -24,6 +24,9 @@ class TicTacToeBoard {
 		}
 		System.out.println("Player 1 is " + answer + " and Player 2 is " + other + ".");
 		return answer;
+	}
+	public String gamePlay() {
+
 	}
 	public String toString(){
 		return (board[0][0] + "|" + board[0][1] + "|" + board[0][2] + "\n"
