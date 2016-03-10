@@ -1,7 +1,7 @@
 import java.util.*;
 
 class TicTacToeBoard {
-	private String[][] board;
+	public String[][] board;
 	public TicTacToeBoard() {
 		board = new String[3][3];
 		for (int i = 0; i < 3; i++) {
